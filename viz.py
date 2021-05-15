@@ -12,22 +12,22 @@ st.title("Disaggregation of Shares in Output-side Real GDP at Current Purchasing
 st.subheader("By Aniruddh Bhaskaran (Ashoka University UG '23)")
 
 # loading data from the csv files & renaming columns
-df_c = pd.read_csv('/Users/aniruddhbhaskaran/Programming/pyecon/Viz_Projects/Disagg_Ind/csh_c.csv')
+df_c = pd.read_csv('https://raw.githubusercontent.com/LaserTrajectory/disagg-india/main/csh_c.csv')
 df_c.rename(columns={'DATE':'Date', 'CSHCCPINA156NRUG':'csh_c'}, inplace=True)
 
-df_g = pd.read_csv('/Users/aniruddhbhaskaran/Programming/pyecon/Viz_Projects/Disagg_Ind/csh_g.csv')
+df_g = pd.read_csv('https://raw.githubusercontent.com/LaserTrajectory/disagg-india/main/csh_g.csv')
 df_g.rename(columns={'DATE':'Date', 'CSHGCPINA156NRUG':'csh_g'}, inplace=True)
 
-df_i = pd.read_csv('/Users/aniruddhbhaskaran/Programming/pyecon/Viz_Projects/Disagg_Ind/csh_i.csv')
+df_i = pd.read_csv('https://raw.githubusercontent.com/LaserTrajectory/disagg-india/main/csh_i.csv')
 df_i.rename(columns={'DATE':'Date', 'CSHICPINA156NRUG':'csh_i'}, inplace=True)
 
-df_m = pd.read_csv('/Users/aniruddhbhaskaran/Programming/pyecon/Viz_Projects/Disagg_Ind/csh_m.csv')
+df_m = pd.read_csv('https://raw.githubusercontent.com/LaserTrajectory/disagg-india/main/csh_m.csv')
 df_m.rename(columns={'DATE':'Date', 'CSHMCPINA156NRUG':'csh_m'}, inplace=True)
 
-df_x = pd.read_csv('/Users/aniruddhbhaskaran/Programming/pyecon/Viz_Projects/Disagg_Ind/csh_x.csv')
+df_x = pd.read_csv('https://raw.githubusercontent.com/LaserTrajectory/disagg-india/main/csh_x.csv')
 df_x.rename(columns={'DATE':'Date', 'CSHXCPINA156NRUG':'csh_x'}, inplace=True)
 
-df_r = pd.read_csv('/Users/aniruddhbhaskaran/Programming/pyecon/Viz_Projects/Disagg_Ind/csh_r.csv')
+df_r = pd.read_csv('https://raw.githubusercontent.com/LaserTrajectory/disagg-india/main/csh_r.csv')
 df_r.rename(columns={'DATE':'Date', 'CSHRCPINA156NRUG':'csh_r'}, inplace=True)
 
 # display data
